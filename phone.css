@@ -96,6 +96,15 @@
 
   .rights{padding:28px 0!important;gap:12px!important}
 
+  /* Link TURBO with the price joined under it (home) */
+  .duo-main{padding:24px 16px}
+  .duo-price{padding:24px 18px;gap:14px}
+  .duo-tabs{display:grid!important;grid-template-columns:repeat(3,1fr);gap:6px}
+  .duo-tabs li{text-align:center;font-size:17px;letter-spacing:1px;padding:6px 2px}
+  .duo-slide{flex-direction:column;align-items:flex-start;padding:16px}
+  .duo-read{flex-direction:row;align-items:baseline;gap:10px;text-align:left}
+  .night{padding:24px 16px!important}
+
   /* TURBO teaser: the flow as one line, no hanging arrows */
   .teaser{padding:24px 16px!important}
   .flow{flex-wrap:nowrap!important;gap:3px!important}
