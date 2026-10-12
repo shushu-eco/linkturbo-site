@@ -23,7 +23,7 @@ are built from. Problems and ideas go there, or to Discord.
 
 ## Link Lite Recorder
 
-A browser extension for **Chrome, Edge and Brave**. It records the Kick or Twitch stream playing in your tab, lets you mark the highlights as they happen, and saves one mp4 to your own computer. It is free: no price, no licence key, no trial, no account.
+A browser extension for **Chrome, Edge and Brave**. It records the Kick or Twitch stream playing in your tab, lets you mark the highlights as they happen, and saves one mp4 to your own computer. It is free and open source: no licence key, no account, no limit on recordings.
 
 <img src="readme/record.png" alt="The Link Lite panel on a stream's page, recording">
 
