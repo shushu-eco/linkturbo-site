@@ -4,21 +4,26 @@
 
 # Link
 
-**From a live stream to a clip, on your own computer.**
+**From a live stream to a clip, on your own computer.** Free and open source.
 
-[**Website**](https://linkturbo.app) &nbsp;·&nbsp; [**Add to Chrome**](https://chromewebstore.google.com/detail/link-lite-recorder/jjbnifoddmcjocjdmiaondcimkjmkjaa) &nbsp;·&nbsp; [**Discord**](https://discord.gg/N3jdn6WPJd) &nbsp;·&nbsp; [**How it works**](https://linkturbo.app/how-it-works) &nbsp;·&nbsp; [**Support**](https://linkturbo.app/support)
-
-<br>
-
-<a href="https://chromewebstore.google.com/detail/link-lite-recorder/jjbnifoddmcjocjdmiaondcimkjmkjaa"><img src="readme/in-the-store.png" alt="Link Lite Recorder is in the Chrome Web Store"></a>
+[**Website**](https://linkturbo.app) &nbsp;·&nbsp; [**The code**](https://github.com/shushu-eco/link) &nbsp;·&nbsp; [**Add to Chrome**](https://chromewebstore.google.com/detail/link-lite-recorder/jjbnifoddmcjocjdmiaondcimkjmkjaa) &nbsp;·&nbsp; [**Discord**](https://discord.gg/N3jdn6WPJd) &nbsp;·&nbsp; [**How it works**](https://linkturbo.app/how-it-works)
 
 </div>
 
 <br>
 
+## This repository
+
+It holds the published pages of [linkturbo.app](https://linkturbo.app), served by GitHub Pages, and
+nothing else.
+
+**Link's code is in [shushu-eco/link](https://github.com/shushu-eco/link)**: the browser extension
+(Link Lite Recorder), the Windows program (Link TURBO, with Link Night), and the source these pages
+are built from. Problems and ideas go there, or to Discord.
+
 ## Link Lite Recorder
 
-A browser extension for **Chrome, Edge and Brave**. It records the Kick or Twitch stream playing in your tab, lets you mark the highlights as they happen, and saves one mp4 to your own computer.
+A browser extension for **Chrome, Edge and Brave**. It records the Kick or Twitch stream playing in your tab, lets you mark the highlights as they happen, and saves one mp4 to your own computer. It is free: no price, no licence key, no trial, no account.
 
 <img src="readme/record.png" alt="The Link Lite panel on a stream's page, recording">
 
@@ -37,65 +42,24 @@ A browser extension for **Chrome, Edge and Brave**. It records the Kick or Twitc
 </tr>
 </table>
 
-### Try it first
+## Link TURBO
 
-The first **3 recordings** work in full, with no key and no account. After that: **EUR 1.99, paid once**. No subscription. One key works in up to three browsers, and there is a 14-day money-back promise.
-
-<div align="center">
-
-[**Add Link Lite Recorder to your browser →**](https://chromewebstore.google.com/detail/link-lite-recorder/jjbnifoddmcjocjdmiaondcimkjmkjaa)
-
-</div>
-
-<br>
-
-## Skins for the panel
-
-Five colour skins, each with a slow moving background of its own. Try any of them on before you buy. **EUR 0.99 each, paid once.** Classic stays free. They come with the next update.
-
-<div align="center">
-<img src="readme/skins-moving.gif" alt="The five skins, with their backgrounds moving">
-</div>
-
-<br>
-
-## Link TURBO &nbsp;<sub>in development</sub>
-
-The full program for Windows: record up to 3 streams at once, have the moments found for you, edit finished 9:16 clips, post them, and see how they did. **Link Night** records your streams while you are away and has the moments ranked when you are back. **EUR 7.99, paid once.** Not released yet.
-
-<a href="https://linkturbo.app/turbo"><img src="readme/turbo.png" alt="Link TURBO: from a live stream to a posted reel, in five steps"></a>
-
-<br>
-
-## Join the community
-
-News comes to Discord first: releases, updates, and what is being built next. Feedback there shapes what Link becomes.
-
-<div align="center">
-
-### [discord.gg/N3jdn6WPJd](https://discord.gg/N3jdn6WPJd)
-
-🎃 Members of the server by **2 November 2026** get **5% off Link TURBO** when it is released.
-
-</div>
-
-<br>
+The full program for Windows: record up to 3 streams at once, have the moments found for you, edit finished 9:16 clips, post them, and see how they did. **Link Night** records streams while you are away and has the moments ranked when you are back. Free and open source as well; it runs from the code today, and an installer is not released yet.
 
 ## Links
 
 | | |
 |---|---|
 | Website | [linkturbo.app](https://linkturbo.app) |
+| The code | [github.com/shushu-eco/link](https://github.com/shushu-eco/link) |
 | Chrome Web Store | [Link Lite Recorder](https://chromewebstore.google.com/detail/link-lite-recorder/jjbnifoddmcjocjdmiaondcimkjmkjaa) |
 | Discord | [discord.gg/N3jdn6WPJd](https://discord.gg/N3jdn6WPJd) |
 | The guide | [linkturbo.app/how-it-works](https://linkturbo.app/how-it-works) |
-| Buying and the licence key | [linkturbo.app/buy](https://linkturbo.app/buy) |
+| Open source | [linkturbo.app/open-source](https://linkturbo.app/open-source) |
 | What's new | [linkturbo.app/changelog](https://linkturbo.app/changelog) |
 | Support | [support@linkturbo.app](mailto:support@linkturbo.app) |
 | Privacy · Terms · Copyright | [privacy](https://linkturbo.app/privacy) · [terms](https://linkturbo.app/terms) · [copyright](https://linkturbo.app/copyright) |
 
-## About this repository
-
-This repository holds the published pages of [linkturbo.app](https://linkturbo.app), served by GitHub Pages. The extension and the program are not open source; their code is not here.
+Licence: [GNU General Public License, version 3](LICENSE).
 
 <sub>Link is a tool. Record your own streams, or streams whose owner allows it. Not affiliated with Kick or Twitch.</sub>

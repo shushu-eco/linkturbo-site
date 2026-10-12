@@ -6,7 +6,7 @@
 /* Phone-only elements, hidden on desktop */
 .cta-short,.menu,.hero-capsule,.feat-marks,.dock,.l-short,.toc-now{display:none}
 
-/* Notes on /buy are <details> now; on desktop they look exactly as before */
+/* Notes on /open-source are <details> now; on desktop they look exactly as before */
 .note>summary{list-style:none;display:flex;flex-direction:column;gap:10px}
 .note>summary::-webkit-details-marker{display:none}
 .note>p{margin-top:10px!important}
@@ -40,7 +40,7 @@
   .sec{margin-top:56px!important}
   main{padding-bottom:0}
 
-  /* Hero (home, TURBO, thanks) */
+  /* Hero (home, TURBO) */
   .hero{margin-top:16px!important;padding:28px 16px 24px!important}
   .hero-grid{gap:28px!important}
   .hero-cta{width:100%;justify-content:center;padding:14px 12px!important;text-align:center}
@@ -70,7 +70,7 @@
   .feat-marks i{width:10px;height:10px;background:#22304a;box-shadow:0 0 0 2px #090c1e}
   .feat-marks::after{content:"";position:absolute;left:0;top:0;width:10px;height:10px;background:#f2c744;animation:feat-pos linear both;animation-timeline:--feat;animation-timing-function:steps(6,jump-none)}
 
-  /* Steps: one rail (home, buying, TURBO, buy page, thanks) */
+  /* Steps: one rail (home, open source, TURBO) */
   .rail{display:flex!important;flex-direction:column;gap:0!important}
   .rail>li{position:relative;border:0!important;background:none!important;box-shadow:none!important;padding:0 0 28px 44px!important;display:flex!important;flex-direction:column;gap:8px!important}
   .rail>li::before{content:"";position:absolute;left:11px;top:4px;bottom:0;width:2px;background:#22304a}
@@ -147,7 +147,7 @@
   .doc td{border:0;padding:0}
   .doc td::before{content:attr(data-th);display:block;font-family:VT323,monospace;font-size:17px;letter-spacing:2px;color:#7fd6c2;text-transform:uppercase;margin-bottom:2px}
 
-  /* Buy page: notes as rows that open and close */
+  /* Open source page: notes as rows that open and close */
   .notes{gap:0!important}
   .note{border-top:2px solid #22304a;padding:0!important;gap:0!important}
   .note>summary{flex-direction:row;align-items:center;gap:12px;min-height:52px;cursor:pointer}
@@ -188,7 +188,7 @@
   .ftr-nav a{min-height:44px;display:inline-flex;align-items:center}
   .ftr-notes{flex-direction:row!important;flex-wrap:wrap;gap:0 6px!important}
 
-  /* Optional bottom bar (home, how it works, buying): CSS only, appears after ~600px of scrolling.
+  /* Optional bottom bar (home, how it works, open source): CSS only, appears after ~600px of scrolling.
      Browsers without scroll-driven animations never show it and reserve no space. */
   .dock{position:fixed;left:0;right:0;bottom:0;z-index:15;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(9,12,30,.94);border-top:2px solid #22304a;transform:translateY(110%)}
   @supports (animation-timeline:scroll()){
