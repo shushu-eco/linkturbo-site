@@ -79,26 +79,26 @@
   .rail .num{position:absolute;left:0;top:0;width:24px;height:24px;display:flex;align-items:center;justify-content:center;background:#0a0d1f;border:2px solid #3f6f7a;padding:0!important;font-family:VT323,monospace;font-size:17px!important;line-height:1!important;letter-spacing:0!important;color:#ffd27a}
   .rail-5>li>span:first-child{justify-content:flex-start!important}
 
-  /* Price and buying on home: one block */
-  .pricing{display:flex!important;flex-direction:column;gap:0!important;background:linear-gradient(#13243f,#0f1d34);border:2px solid #3f6f7a;box-shadow:0 0 0 2px #090c1e,inset 0 0 0 2px #090c1e;padding:24px 18px}
-  .price-card{background:none!important;border:0!important;box-shadow:none!important;padding:0!important;gap:14px!important}
-  .price-big{font-size:56px!important}
-  .price-points{display:grid!important;grid-template-columns:1fr 1fr;gap:8px 12px!important}
-  .price-points .l-long{display:none}
-  .price-points .l-short{display:inline}
-  .buying-col{padding:18px 0 0!important;margin-top:18px;border-top:1px solid #3f6f7a;gap:12px!important}
-  .buying-col>h2{display:none}
-  .buy-chips{flex-direction:row!important;flex-wrap:wrap;gap:8px!important}
-  .buy-chips>li{align-items:center!important;gap:8px!important;background:#0a0d1f;border:2px solid #22304a;padding:6px 10px 6px 8px}
-  .buy-chips .num{border:0!important;padding:0!important;line-height:1!important}
-  .buy-chips .l-long{display:none}
-  .buy-chips .l-short{display:inline;font:600 15px/1.2 'Nunito Sans',sans-serif;color:#f6efdc}
+  /* Free and open source on home: one block */
+  .terms-block{display:flex!important;flex-direction:column;gap:0!important;background:linear-gradient(#13243f,#0f1d34);border:2px solid #3f6f7a;box-shadow:0 0 0 2px #090c1e,inset 0 0 0 2px #090c1e;padding:24px 18px}
+  .terms-card{background:none!important;border:0!important;box-shadow:none!important;padding:0!important;gap:14px!important}
+  .terms-big{font-size:56px!important}
+  .terms-points{display:grid!important;grid-template-columns:1fr 1fr;gap:8px 12px!important}
+  .terms-points .l-long{display:none}
+  .terms-points .l-short{display:inline}
+  .open-col{padding:18px 0 0!important;margin-top:18px;border-top:1px solid #3f6f7a;gap:12px!important}
+  .open-col>h2{display:none}
+  .open-chips{flex-direction:row!important;flex-wrap:wrap;gap:8px!important}
+  .open-chips>li{align-items:center!important;gap:8px!important;background:#0a0d1f;border:2px solid #22304a;padding:6px 10px 6px 8px}
+  .open-chips .num{border:0!important;padding:0!important;line-height:1!important}
+  .open-chips .l-long{display:none}
+  .open-chips .l-short{display:inline;font:600 15px/1.2 'Nunito Sans',sans-serif;color:#f6efdc}
 
   .rights{padding:28px 0!important;gap:12px!important}
 
-  /* Link TURBO with the price joined under it (home) */
+  /* Link TURBO with what it is joined under it (home) */
   .duo-main{padding:24px 16px}
-  .duo-price{padding:24px 18px;gap:14px}
+  .duo-terms{padding:24px 18px;gap:14px}
   .duo-tabs{display:grid!important;grid-template-columns:repeat(3,1fr);gap:6px}
   .duo-tabs li{text-align:center;font-size:17px;letter-spacing:1px;padding:6px 2px}
   .duo-slide{flex-direction:column;align-items:flex-start;padding:16px}
@@ -195,9 +195,9 @@
     .dock{animation:dock-in linear both;animation-timeline:scroll(root);animation-range:0 700px}
     .has-dock~.ftr .ftr-in{padding-bottom:88px!important}
   }
-  .dock-price{display:flex;align-items:baseline;gap:8px}
-  .dock-price b{font:400 26px/1 VT323,monospace;letter-spacing:2px;color:#f2c744;font-variant-numeric:tabular-nums}
-  .dock-price span{font:600 16px/1 'Nunito Sans',sans-serif;color:#b9b3a4}
+  .dock-terms{display:flex;align-items:baseline;gap:8px}
+  .dock-terms b{font:400 26px/1 VT323,monospace;letter-spacing:2px;color:#f2c744;font-variant-numeric:tabular-nums}
+  .dock-terms span{font:600 16px/1 'Nunito Sans',sans-serif;color:#b9b3a4}
   .dock-cta{display:inline-flex;align-items:center;height:44px;padding:0 16px;background:linear-gradient(#ffe27a,#d9a52a);color:#090c1e;border:2px solid #090c1e;box-shadow:0 0 0 2px #f2c744;font:800 15px 'Nunito Sans',sans-serif;text-decoration:none;white-space:nowrap}
 }
 

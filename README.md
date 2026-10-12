@@ -44,7 +44,7 @@ A browser extension for **Chrome, Edge and Brave**. It records the Kick or Twitc
 
 ## Link TURBO
 
-The full program for Windows: record up to 3 streams at once, have the moments found for you, edit finished 9:16 clips, post them, and see how they did. **Link Night** records streams while you are away and has the moments ranked when you are back. Free and open source as well; it runs from the code today, and an installer is not released yet.
+The full program for Windows: record up to 3 streams at once, have the moments found for you, edit finished 9:16 clips, post them, and see how they did. **Link Night** records streams while you are away and has the moments ranked when you are back. Free and open source as well. Download it for Windows as [Link-Setup.exe](https://github.com/shushu-eco/link/releases/download/installer/Link-Setup.exe) or [Link-Windows.zip](https://github.com/shushu-eco/link/releases/download/installer/Link-Windows.zip); it keeps itself up to date.
 
 ## Links
 
