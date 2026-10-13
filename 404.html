@@ -27,8 +27,11 @@
   <div class="hdr-in" style="max-width:1200px;margin:0 auto;padding:12px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px">
     <a class="brand" href="/" aria-label="Link home" style="font-family:VT323,monospace;font-size:34px;line-height:1;letter-spacing:6px;color:#ff5d5d;text-shadow:2px 2px 0 #090c1e;text-decoration:none">LINK</a>
     <nav class="main-nav" aria-label="Main" style="display:flex;flex-wrap:wrap;gap:4px 22px">
+      
       <a class="s0" href="/" style="font:600 16px/1 'Nunito Sans',sans-serif;color:#c9c5ea;text-decoration:none;padding:8px 0;border-bottom:2px solid transparent;transition:color 120ms">Link Lite</a>
       <a class="s0" href="/turbo" style="font:600 16px/1 'Nunito Sans',sans-serif;color:#c9c5ea;text-decoration:none;padding:8px 0;border-bottom:2px solid transparent;transition:color 120ms">Link <span style="font-family:VT323,monospace;font-size:17px;letter-spacing:2px;color:#ff5d5d">TURBO</span></a>
+      
+      
       <a class="s0" href="/how-it-works" style="font:600 16px/1 'Nunito Sans',sans-serif;color:#c9c5ea;text-decoration:none;padding:8px 0;border-bottom:2px solid transparent;transition:color 120ms">How it works</a>
       <a class="s0" href="/support" style="font:600 16px/1 'Nunito Sans',sans-serif;color:#c9c5ea;text-decoration:none;padding:8px 0;border-bottom:2px solid transparent;transition:color 120ms">Support</a>
     </nav>
@@ -44,6 +47,7 @@
       <nav class="menu-nav" aria-label="Main menu">
         <a class="menu-link" href="/" >Link Lite</a>
         <a class="menu-link" href="/turbo" >Link <span style="font-family:VT323,monospace;font-size:17px;letter-spacing:2px;color:#ff5d5d">TURBO</span></a>
+        
         <a class="menu-link" href="/how-it-works" >How it works</a>
         <a class="menu-link" href="/support" >Support</a>
       </nav>
@@ -53,6 +57,7 @@
       </div>
     </div>
   </details>
+  <script>document.querySelectorAll(".menu a").forEach(function(a){a.addEventListener("click",function(){var m=document.querySelector("details.menu");if(m)m.open=false})})</script>
 </header>
 
 <main style="max-width:1200px;margin:0 auto;padding:0 16px">
