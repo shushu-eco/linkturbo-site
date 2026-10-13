@@ -146,6 +146,46 @@
         </div>
       </figure>
     </div>
+    <div class="clips" style="position:relative;display:flex;flex-direction:column;gap:36px">
+      
+        <article class="clip" style="display:flex;flex-wrap:wrap;gap:18px 40px;align-items:center">
+          <div class="clip-words" style="flex:1 1 240px;min-width:0;display:flex;flex-direction:column;gap:10px">
+            <span style="font-family:VT323,monospace;font-size:16px;letter-spacing:3px;color:#7fd6c2">BEFORE BED</span>
+            <h3 style="margin:0;font:700 clamp(21px,2.4vw,26px)/1.25 'Nunito Sans',sans-serif;color:#f6efdc;text-wrap:pretty">Give it the hours, press Start night</h3>
+            <p style="margin:0;font:400 16px/1.6 'Nunito Sans',sans-serif;color:#c9c5ea;text-wrap:pretty">One to twelve hours. Tick Sleep PC when done if the computer should switch itself off afterwards. Then go.</p>
+          </div>
+          <figure class="clip-film" style="flex:2 1 440px;min-width:0;margin:0;background:#0a0d1f;border:2px solid #22304a;box-shadow:0 0 0 2px #090c1e;line-height:0">
+            <video src="/clips/night-1.mp4" poster="/clips/night-1.jpg" width="1280" height="720" muted loop playsinline preload="none" aria-label="The Link Night window: the hours are set to six, Sleep PC when done is ticked, Start night is pressed and the first stretch begins" style="display:block;width:100%;height:auto;aspect-ratio:16/9"></video>
+          </figure>
+        </article>
+      
+        <article class="clip" style="display:flex;flex-wrap:wrap;gap:18px 40px;align-items:center">
+          <div class="clip-words" style="flex:1 1 240px;min-width:0;display:flex;flex-direction:column;gap:10px">
+            <span style="font-family:VT323,monospace;font-size:16px;letter-spacing:3px;color:#7fd6c2">WHILE YOU SLEEP</span>
+            <h3 style="margin:0;font:700 clamp(21px,2.4vw,26px)/1.25 'Nunito Sans',sans-serif;color:#f6efdc;text-wrap:pretty">Three streams at a time, all night</h3>
+            <p style="margin:0;font:400 16px/1.6 'Nunito Sans',sans-serif;color:#c9c5ea;text-wrap:pretty">It records in stretches of 30 minutes. After each one the recordings are checked and made into tapes, and the next stretch begins.</p>
+          </div>
+          <figure class="clip-film" style="flex:2 1 440px;min-width:0;margin:0;background:#0a0d1f;border:2px solid #22304a;box-shadow:0 0 0 2px #090c1e;line-height:0">
+            <video src="/clips/night-2.mp4" poster="/clips/night-2.jpg" width="1280" height="720" muted loop playsinline preload="none" aria-label="The night passes on a clock from 23:00 to 05:00 while the window's bar fills and its count of tapes and moments grows" style="display:block;width:100%;height:auto;aspect-ratio:16/9"></video>
+          </figure>
+        </article>
+      
+        <article class="clip" style="display:flex;flex-wrap:wrap;gap:18px 40px;align-items:center">
+          <div class="clip-words" style="flex:1 1 240px;min-width:0;display:flex;flex-direction:column;gap:10px">
+            <span style="font-family:VT323,monospace;font-size:16px;letter-spacing:3px;color:#7fd6c2">THE MORNING</span>
+            <h3 style="margin:0;font:700 clamp(21px,2.4vw,26px)/1.25 'Nunito Sans',sans-serif;color:#f6efdc;text-wrap:pretty">Done, asleep, and waiting for you</h3>
+            <p style="margin:0;font:400 16px/1.6 'Nunito Sans',sans-serif;color:#c9c5ea;text-wrap:pretty">When the hours are up the PC goes to sleep by itself. In the morning the tapes are there, with their moments found.</p>
+          </div>
+          <figure class="clip-film" style="flex:2 1 440px;min-width:0;margin:0;background:#0a0d1f;border:2px solid #22304a;box-shadow:0 0 0 2px #090c1e;line-height:0">
+            <video src="/clips/night-3.mp4" poster="/clips/night-3.jpg" width="1280" height="720" muted loop playsinline preload="none" aria-label="The night is done, the window counts down to sleep, the screen goes dark; in the morning it shows 27 tapes and their moments" style="display:block;width:100%;height:auto;aspect-ratio:16/9"></video>
+          </figure>
+        </article>
+      
+    </div>
+    <script>(function(){var vs=document.querySelectorAll(".clip-film video");if(!vs.length)return;
+if(matchMedia("(prefers-reduced-motion:reduce)").matches||!("IntersectionObserver" in window)){vs.forEach(function(v){v.controls=true});return}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;if(e.isIntersecting){var p=v.play();if(p&&p.catch)p.catch(function(x){if(x&&x.name==="NotAllowedError")v.controls=true})}else v.pause()})},{threshold:.35});
+vs.forEach(function(v){io.observe(v)})})()</script>
     <div style="position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px">
       
         <article style="background:#0a0d1f;border:2px solid #22304a;padding:20px 20px;display:flex;flex-direction:column;gap:8px">

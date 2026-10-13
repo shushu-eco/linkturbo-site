@@ -49,6 +49,8 @@ body{isolation:isolate}
 .duo-read{flex:none;display:flex;flex-direction:column;align-items:flex-end;gap:4px;text-align:right}
 /* The turn: 48 seconds. Link TURBO's face for the first 24, Link Lite's for the rest; within a face each of
    its six services has four seconds. A mouse over the block holds it still. */
+/* The films: words and film side by side, every second one the other way round. Narrow, they stack: words, then film. */
+.clip:nth-child(even){flex-direction:row-reverse}
 @media (prefers-reduced-motion:no-preference){
 .duo{display:grid}
 .duo-face{grid-area:1/1;animation:duo-face 48s linear infinite both;animation-delay:calc(var(--f)*24s - 48s)}
