@@ -137,6 +137,6 @@
 </footer>
 <script>(function(){var h=new URLSearchParams(location.hash.slice(1)),f=document.querySelector("form.bye");if(!f)return;
 var put=function(n,v){if(v)f.elements[n].value=v};put("version",(h.get("v")||"").replace(/[^\d.]/g,"").slice(0,12));
-put("days",(h.get("d")||"").replace(/\D/g,"").slice(0,5));put("recorded",{"1":"yes","0":"no"}[h.get("r")])})()</script>
+var d=(h.get("d")||"").replace(/\D/g,"").slice(0,5);put("days",d&&(d==="1"?"1 day":d+" days"));put("recorded",{"1":"yes","0":"no"}[h.get("r")])})()</script>
 </body>
 </html>
